@@ -103,3 +103,26 @@ function onAgradecimentoClick()
     console.log(document.getElementById("agradecimento"))
     
 }
+
+
+function redirecionar()
+{
+  //window.open("https://globo.com");
+  //na mesma janela
+  //window.location.href = "https://globo.com";
+}
+
+function trocar(elemento)
+{
+    elemento.innerHTML = "Trocando";
+}
+
+function voltar(elemento)
+{
+    elemento.innerHTML = "voltando";
+}
+
+function carregar()
+{
+    alert("Bem Vindo")
+}
