@@ -1,4 +1,4 @@
-var nome = "Carlos Andrade";
+/*var nome = "Carlos Andrade";
 var idade = 50;
 var idade2 = 10;
 
@@ -61,3 +61,45 @@ console.log(data.getMonth()+1);
 console.log(data.getFullYear());
 
 console.log("teste "+" teste 2 " + 1425+"-"+1519)
+
+function soma(n1, n2) {
+    return n1 + n2;
+}
+
+function setReplace(frase, nome, novo_nome)
+{
+    return frase.replace(nome,novo_nome)
+}
+
+//alert(10,20)
+//alert(setReplace("Vai japao","japao","brasil"))
+
+var validar = 0;
+
+function validaIdade(idade) {
+    if (idade >=18) {
+        validar = true;
+        return true
+    }
+    else {
+        validar = false;
+        return false;
+    }
+}
+
+var idade10 = prompt("Qual sua idade ?")
+validaIdade(idade10)
+console.log("Valor da variavel "+validar)
+*/
+
+function onClick()
+{
+    alert("Clicou")
+}
+
+function onAgradecimentoClick()
+{
+    document.getElementById("agradecimento").innerHTML = "Aqui eu mando";
+    console.log(document.getElementById("agradecimento"))
+    
+}
